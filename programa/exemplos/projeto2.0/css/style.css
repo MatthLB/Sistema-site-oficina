@@ -1,0 +1,67 @@
+.espaco{
+    margin-top: 50px;
+}
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body p, a{
+   font-family: 'Libre Franklin', sans-serif;
+}
+.cor-form{
+    background: linear-gradient(to right, white, rgb(64, 66, 66));   
+}
+.bnt-con-cadas{
+    color: white;
+    background-color: #3c3d41;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+#divcards .card{
+    margin-top: 15px;
+    border-radius: 20px;  
+}
+#divcont img{
+    margin-top: auto;
+}
+.logoimg{
+    margin-left: 3px;
+    margin-right: 8px;
+}
+#center{
+    margin-top: 100px;
+}
+
+.bnt-comprar{
+    background-color:chocolate;
+    width: 200px;
+    height: 60px;
+    color: white;
+    border-color: chocolate;
+}
+.espaco{
+    margin-top:100px
+}
+.corlaranja{
+    color: chocolate;
+}
+
+.teclado{
+    cursor: pointer;
+}
+.especificacoes{
+    background-color: chocolate;
+    color: white;
+    margin-top: 30px;
+}
+.verificarcpf{
+    color: red;
+    display: none;
+}
+
+

@@ -1,0 +1,211 @@
+<head>
+    <title>testes de css</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .container {
+            margin-top: 300px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .loader {
+            width: 80px;
+            height: 50px;
+            position: relative;
+        }
+
+        .loader-text {
+            position: absolute;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            color: #C8B6FF;
+            animation: text_713 3.5s ease both infinite;
+            font-size: .8rem;
+            letter-spacing: 1px;
+        }
+
+        .load {
+            background-color: #9A79FF;
+            border-radius: 50px;
+            display: block;
+            height: 16px;
+            width: 16px;
+            bottom: 0;
+            position: absolute;
+            transform: translateX(64px);
+            animation: loading_713 3.5s ease both infinite;
+        }
+
+        .load::before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            background-color: #D1C2FF;
+            border-radius: inherit;
+            animation: loading2_713 3.5s ease both infinite;
+        }
+
+        @keyframes text_713 {
+            0% {
+                letter-spacing: 1px;
+                transform: translateX(0px);
+            }
+
+            40% {
+                letter-spacing: 2px;
+                transform: translateX(26px);
+            }
+
+            80% {
+                letter-spacing: 1px;
+                transform: translateX(32px);
+            }
+
+            90% {
+                letter-spacing: 2px;
+                transform: translateX(0px);
+            }
+
+            100% {
+                letter-spacing: 1px;
+                transform: translateX(0px);
+            }
+        }
+
+        @keyframes loading_713 {
+            0% {
+                width: 16px;
+                transform: translateX(0px);
+            }
+
+            40% {
+                width: 100%;
+                transform: translateX(0px);
+            }
+
+            80% {
+                width: 16px;
+                transform: translateX(64px);
+            }
+
+            90% {
+                width: 100%;
+                transform: translateX(0px);
+            }
+
+            100% {
+                width: 16px;
+                transform: translateX(0px);
+            }
+        }
+
+        @keyframes loading2_713 {
+            0% {
+                transform: translateX(0px);
+                width: 16px;
+            }
+
+            40% {
+                transform: translateX(0%);
+                width: 80%;
+            }
+
+            80% {
+                width: 100%;
+                transform: translateX(0px);
+            }
+
+            90% {
+                width: 80%;
+                transform: translateX(15px);
+            }
+
+            100% {
+                transform: translateX(0px);
+                width: 16px;
+            }
+        }
+
+        button {
+            text-decoration: none;
+            position: relative;
+            border: none;
+            font-size: 14px;
+            font-family: inherit;
+            color: #fff;
+            width: 9em;
+            height: 3em;
+            line-height: 2em;
+            text-align: center;
+            background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+            background-size: 300%;
+            border-radius: 30px;
+            z-index: 1;
+        }
+
+        button:hover {
+            animation: ani 8s linear infinite;
+            border: none;
+        }
+
+        @keyframes ani {
+            0% {
+                background-position: 0%;
+            }
+
+            100% {
+                background-position: 400%;
+            }
+        }
+
+
+
+
+
+        button:before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            z-index: -1;
+            background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+            background-size: 400%;
+            border-radius: 35px;
+            transition: 1s;
+        }
+
+        button:hover::before {
+            filter: blur(20px);
+        }
+
+        button:active {
+            background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="loader">
+            <span class="loader-text">loading</span>
+            <span class="load"></span>
+        </div>
+
+
+    </div>
+    <div class="container">
+        <a href="animacao.html">
+            <button> HOVER ME
+            </button>
+        </a>
+    </div>
+</body>
