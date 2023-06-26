@@ -1,0 +1,17 @@
+.cor-body{
+    background: black;
+    color: white;
+}
+.cor-nav{
+    background: white;
+}
+
+.infor{
+    margin-top: 200px;
+}
+
+/* @font-face {
+    font-family: "Raleway Especial";
+    src: local(Raleway), url(../fonts/Raleway-ExtraBold.ttf);
+    font-weight: 800;
+ } */
