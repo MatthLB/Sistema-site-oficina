@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icone.png">
   <title>Site Oficina</title>
   <link rel="stylesheet" href="css/style.css">
   <!-- Bootstrap CSS-->
@@ -12,9 +13,9 @@
 
 </head>
 
-<body class="cor-body">
+<body class="cor-body" id="inicio">
   <nav class="navbar navbar-expand-lg navbar-light cor-nav">
-    <a class="navbar-brand text-light" href="#">Marcelo Moto Peças</a>
+    <a class="navbar-brand text-light" href="#"><img src="img/icone.png" width="50px">Marcelo Moto Peças</a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link active text-light" href="#">Contato</a>
@@ -31,79 +32,87 @@
   </div>
 
   <!-- Informações -->
-  <div class="container infor">
-    <h3 class="text-center">Informações</h3>
-    <br>
-    <br>
-    <div class="row">
-      <div class="col-6">
-        <img src="img/mecanici=o.png" height="200px">
-      </div>
-      <div class="col-6">
-        <br>
-        <br>
-        <p class="text-justify">A nossa oficina presa pelo melhor atendimento ao cliente, buscando atende-los da melhor
-          forma possivel.
-          Estamos a mais de 10 anos no mercado em nossa pequena cidade, atendendo ate mesmo os moradores das cidades
-          vizinhas.
-        </p>
+  <section id="sobre">
+    <div class="container infor">
+      <h3 class="text-center">Informações</h3>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-6">
+          <img src="img/mecanici=o.png" height="200px">
+        </div>
+        <div class="col-6">
+          <br>
+          <br>
+          <p class="text-justify">A nossa oficina presa pelo melhor atendimento ao cliente, buscando atende-los da
+            melhor
+            forma possivel.
+            Estamos a mais de 10 anos no mercado em nossa pequena cidade, atendendo ate mesmo os moradores das cidades
+            vizinhas.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-
+  </section>
 
   <!-- promoções -->
-  <div class="container infor">
-    <h3 class="text-center">Algumas de nossas promoções</h3>
-    <br>
-    <br>
-    <div class="row esp">
+  <section>
+    <div class="container infor">
+      <h3 class="text-center">Algumas de nossas promoções</h3>
+      <br>
+      <br>
+      <div class="row esp">
 
-      <div class="col-md-4">
-        <div class="" style="width: 18rem;">
+        <div class="col-md-4">
+          <div class="" style="width: 18rem;">
 
-          <img class="card-img-top" src="img/produtos/ipiranga-20W50.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center">Óleo Ipiranga 20w50</h5>
-            <p class="card-text text-center">Valor: R$28,00</p>
-            <center><a href="#portfolioModal1" data-toggle="modal" class="btn bnt-produto portfolio-link">Visualizar</a>
-            </center>
+            <img class="card-img-top" src="img/produtos/ipiranga-20W50.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center">Óleo Ipiranga 20w50</h5>
+              <p class="card-text text-center">Valor: R$28,00</p>
+              <center><a href="#portfolioModal1" data-toggle="modal"
+                  class="btn bnt-produto portfolio-link">Visualizar</a>
+              </center>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4">
-        <div class="" style="width: 18rem;">
-          <img class="card-img-top" src="img/produtos/ipiranga10W30.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center">Óleo Ipiranga 10w30</h5>
-            <p class="card-text text-center">Valor: R$30,00</p>
-            <center><a href="#" class="btn bnt-produto">Visualizar</a></center>
+        <div class="col-md-4">
+          <div class="" style="width: 18rem;">
+            <img class="card-img-top" src="img/produtos/ipiranga10W30.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center">Óleo Ipiranga 10w30</h5>
+              <p class="card-text text-center">Valor: R$30,00</p>
+              <center><a href="#portfolioModal2" data-toggle="modal"
+                  class="btn bnt-produto portfolio-link">Visualizar</a>
+              </center>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4">
-        <div class="" style="width: 18rem;">
-          <img class="card-img-top" src="img/produtos/ipiranga-20W50.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center">Óleo Ipiranga 20w50</h5>
-            <p class="card-text text-center">Valor: R$28,00</p>
-            <center><a href="#" class="btn bnt-produto">Visualizar</a></center>
+        <div class="col-md-4">
+          <div class="" style="width: 18rem;">
+            <img class="card-img-top" src="img/produtos/ipiranga-20W50.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center">Óleo Ipiranga 20w50</h5>
+              <p class="card-text text-center">Valor: R$28,00</p>
+              <center><a href="#portfolioModal1" data-toggle="modal"
+                  class="btn bnt-produto portfolio-link">Visualizar</a>
+              </center>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
+  </section>
 
 
   <div class="infor">
-    <center>
-      <h3>Nossa Localização</h3>
-      <br>
-      <br>
-      <iframe
+
+    <h3 class="text-center">Nossa Localização</h3>
+    <br>
+    <br>
+    <center><iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.2381019718123!2d-35.292511625412494!3d-6.49150659350054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ad83f37ee82c37%3A0xb0e2060d54ef35e!2sMarcelo%20Moto%20Pe%C3%A7as!5e0!3m2!1spt-BR!2sbr!4v1687807067842!5m2!1spt-BR!2sbr"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -120,10 +129,9 @@
       <div class="row">
         <div class="col-4">
           <ul class="nav flex-column">
-            <li class="nav-link"><a href="#">Retornar à Loja</a></li>
-            <li class="nav-link"><a href="#">Sobre</a></li>
-            <li class="nav-link"><a href="#">Contato</a></li>
-            <li class="nav-link"><a href="#">Suporte</a></li>
+            <li class="nav-link"><a href="#inicio">Retornar à Loja</a></li>
+            <li class="nav-link"><a href="#sobre">Sobre</a></li>
+            <li class="nav-link"><a href="https://contate.me/marcelo-moto-pecas">Contato</a></li>
           </ul>
         </div>
         <div class="col-8">
@@ -132,12 +140,6 @@
             fugiat, praesentium obcaecati explicabo consequatur voluptatem eos earum blanditiis dolorem eaque veritatis
             libero? Magni, nam fugiat.
           </p>
-          <ul class="nav">
-            <li class="nav-link"><i class="fab fa-facebook fa-3x "></i></li>
-            <li class="nav-link"><i class="fab fa-instagram fa-3x"></i></li>
-            <li class="nav-link"><i class="fab fa-twitter fa-3x"></i></li>
-            <li class="nav-link"><i class="fab fa-whatsapp fa-3x"></i></li>
-          </ul>
         </div>
       </div>
     </div>
@@ -168,6 +170,29 @@
               <center><img class="" src="img/produtos/ipiranga-20W50.png"></center>
               <br>
               <p class="text-body text-center">Valor: R$28,00</p>
+              <p class="text-body text-center">A melhor performance para o seu motor 4T</p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="container">
+          <div class=" justify-content-center">
+
+            <div class="modal-body">
+              <h3 class="text-body text-center">Óleo Ipiranga</h3>
+              <br>
+              <center><img class="" src="img/produtos/ipiranga10W30.png"></center>
+              <br>
+              <p class="text-body text-center">Valor: R$30,00</p>
               <p class="text-body text-center">A melhor performance para o seu motor 4T</p>
 
             </div>
