@@ -3,11 +3,15 @@
     color: white;
 }
 .cor-nav{
-    background: white;
+    background: #f73434;
 }
 
 .infor{
     margin-top: 200px;
+}
+.bnt-produto{
+    background-color: #f73434;
+    color: white;
 }
 
 /* @font-face {
