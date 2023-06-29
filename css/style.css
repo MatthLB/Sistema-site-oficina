@@ -7,11 +7,15 @@
 }
 
 .infor{
-    margin-top: 200px;
+    margin-top: 180px;
 }
 .bnt-produto{
     background-color: #f73434;
     color: white;
+}
+.esp{
+    position: relative;
+    left: 25px;
 }
 
 /* @font-face {
