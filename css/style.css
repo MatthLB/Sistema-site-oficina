@@ -1,25 +1,27 @@
-.cor-body{
+
+.cor-body {
     background: black;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
-.cor-nav{
+.text-center {
+    font-family: 'Merriweather', serif;
+}
+
+.cor-nav {
     background: #f73434;
 }
 
-.infor{
+.infor {
     margin-top: 180px;
 }
-.bnt-produto{
+
+.bnt-produto {
     background-color: #f73434;
     color: white;
 }
-.esp{
+
+.esp {
     position: relative;
     left: 25px;
 }
-
-/* @font-face {
-    font-family: "Raleway Especial";
-    src: local(Raleway), url(../fonts/Raleway-ExtraBold.ttf);
-    font-weight: 800;
- } */
